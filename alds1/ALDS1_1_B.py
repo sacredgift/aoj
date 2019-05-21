@@ -19,7 +19,8 @@ def main():
   I = readlines_stdin()
 
   for i in I:
-    gcd(i)
+    if i != '':
+      gcd(i)
 
 if __name__ == '__main__':
   main()
